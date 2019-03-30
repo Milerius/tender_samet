@@ -1,4 +1,4 @@
-# Optimizationn (title project)
+# Laung Disease Detector
 
 ## Introduction
 
