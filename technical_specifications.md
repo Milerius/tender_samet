@@ -20,9 +20,9 @@ The scheduling module acts as an interface between the hospital **CRM** and vari
 
 The **AI** instances send their detection results to the scheduler in **JSON** format. Each **JSON** contains the following fields:
 
-|  **FIELD** 	|   **TYPE**	|  **Description** 	|   	|   	|
+|  **FIELD** 	|   **TYPE**	|  **Description** 	|
 |---	|---	|---	|---	|---	|
-|  **NAME** 	|  String 	|   Name of the patient	|   	|   	|
-|   **PATIENT_ID**	|   Number	|   Unique id of the patient	|   	|   	|
-|   **PRIORITY_SCORE**	|   Number	|   How urgent it is to prioritize the patient in the queue	|   	|   	|
-|   **RECOMMENDED_DATE_RANGE**	|   [Date,Date]	|   The date range when it is recommended for the patient to get next treatment.	|   	|   	|
+|  **NAME** 	|  String 	|   Name of the patient	|
+|   **PATIENT_ID**	|   Number	|   Unique id of the patient	|
+|   **PRIORITY_SCORE**	|   Number	|   How urgent it is to prioritize the patient in the queue	|
+|   **RECOMMENDED_DATE_RANGE**	|   [Date,Date]	|   The date range when it is recommended for the patient to get next treatment.	|
