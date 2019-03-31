@@ -2,7 +2,7 @@
 
 ## Tagline
 
-**AI² – Faster lung diagnosis and personalized follow-up
+**AI² – Faster lung diagnosis and personalized follow-up**
 
 
 ## Summary
