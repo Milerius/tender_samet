@@ -3,6 +3,7 @@
 ## Tagline
 
 **AI² – Smart lung diagnosis and personalized follow-up**
+
 ![logo](assets/Logo.png)
 
 ## Summary
