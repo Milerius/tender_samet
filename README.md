@@ -1,4 +1,4 @@
-# Smart Lung Disease Diagnosis and personnalized follow-up appointment booking
+# Smart Lung Disease Diagnosis and personnalized follow-up 
 
 ## Tagline
 
