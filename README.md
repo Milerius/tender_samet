@@ -1,4 +1,4 @@
-# Lung Disease Detector
+# Smart Lung Disease Detector leveraging connected hospital power
 
 ## Tagline
 
