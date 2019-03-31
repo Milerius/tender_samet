@@ -19,3 +19,10 @@ The advantage of this approach is that it prioritizes the most urgent cases and 
 The scheduling module acts as an interface between the hospital **CRM** and various instances (an instance per doctor) of the **AI** detections systems
 
 The **AI** instances send their detection results to the scheduler in **JSON** format. Each **JSON** contains the following fields:
+
+|  **FIELD** 	|   **TYPE**	|  **Description** 	|   	|   	|
+|---	|---	|---	|---	|---	|
+|  **NAME** 	|  String 	|   Name of the patient	|   	|   	|
+|   **PATIENT_ID**	|   Number	|   Unique id of the patient	|   	|   	|
+|   **PRIORITY_SCORE**	|   Number	|   How urgent it is to prioritize the patient in the queue	|   	|   	|
+|   **RECOMMENDED_DATE_RANGE**	|   [Date,Date]	|   The date range when it is recommended for the patient to get next treatment.	|   	|   	|
