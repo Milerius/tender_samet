@@ -3,7 +3,6 @@
 
 **AI² – Smart lung diagnosis and personalized follow-up**
 
-
 ## Summary
 
 Our innovative solution aims to leverage AI (machine learning) on two streams (AIxAI=AI²), lung patient diagnostic, and hospital administrative workflow, to both streamline specialist workload and patient experience.
@@ -19,6 +18,10 @@ We are improving these processes by:
 ## Additional Resources
 
 ![text](assets/Smart_lung_disease_diagnosis_and_personalized_follow-up.png)
+
+### Algorithm in details
+
+![algorithm](assets/algorithm_diagram.png)
 
 ## Technical Specifications
 
