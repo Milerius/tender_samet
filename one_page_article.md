@@ -4,21 +4,20 @@
 
 **Increasing administrative efficiency:** U.S. physicians spent around 1/6 of their time on administrative tasks(3). The higher efficiency provided by AI will allow radiologists to perform more value-added tasks, becoming more visible to patients and playing a vital role in multidisciplinary clinical teams.(4)
 
-The beneficial impacts of AI solutions in the field of automated image diagnosis, prevention of preliminary diagnosis and administrative workflow assistance are estimated to 26 billion USD.(5)
+The beneficial impacts of AI solutions in the field of automated image diagnosis, prevention of preliminary diagnosis and administrative workflow assistance are estimated to 26 billion USD savings annually for the healthcare economy in the United States, by 2026.(5)
 
 **Expanding customer experience in healthcare is now becoming one of the industry focus**: among top five top trends for healthcare customer experience (6):
 
 * Patient Personalization
 * Hospitals Using Smart Technology
 
-Our AI solution enables a faster lung diagnosis and personalized follow-up, enabling radiologists to focus on more value-added core responsibilities, while leveraging a smart connected hospital.
+Our AI solution leverage two AI technology streams to enables a faster lung diagnosis and personalized follow-up, enabling radiologists to focus on more value-added core responsibilities, while leveraging a smart connected hospital.
 
 ![image](assets/smarter_healthcare.png)
 
 ## Our approach
 
 Our approach is to transform  prediction output from lung radio images, into an appointment with a lung specialist.
-Lung radio images, into an appointment with a lung specialist.
 
 After disease detection and validation by a radiologist, a patient is given a priority score depending on the severity of his disease, as well as a recommended deadline to seek treatment (here, the deadline and severity score are parameters provided by medical professionals and are not deduced from machine learning).
 
