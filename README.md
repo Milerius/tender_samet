@@ -1,8 +1,5 @@
 # Smart lung disease diagnosis and personalized follow-up
 
-## Team
-![Team](assets/AI_Hackathon_dream_team.JPG)
-
 ## Tagline
 
 **AI² – Smart lung diagnosis and personalized follow-up**
@@ -40,6 +37,8 @@ We also remove friction points in the process by using user-friendly app for the
 [Click here](REPRODUCIBILITY.md) to access reproducibility instructions
 
 ## Team Members
+
+![Team](assets/AI_Hackathon_dream_team.JPG)
 
 Benedikt Jordan [Linkedin](https://www.linkedin.com/in/benedikt-jordan-9b068b9a/), Benedikt.jordan@posteo.de
 
