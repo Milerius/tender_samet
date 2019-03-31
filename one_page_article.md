@@ -25,7 +25,7 @@ AAfter receiving his or her score, the result is sent to the Customer Relationsh
 
 The advantage of this approach is that it prioritizes the most urgent cases and helps doctors manage their schedule efficiently.
 
-![image](assets/Solution AI2.png)
+![image](assets/Solution_AI2.png)
 
 ## How our AI solution positively impacts the patient journey
 
