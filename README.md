@@ -1,4 +1,8 @@
 # Smart lung disease diagnosis and personalized follow-up
+
+## Team
+![Team](assets/AI_Hackathon_dream_team.JPG)
+
 ## Tagline
 
 **AI² – Smart lung diagnosis and personalized follow-up**
