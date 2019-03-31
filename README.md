@@ -4,7 +4,6 @@
 
 AI² – Faster lung diagnosis and personalized follow-up
 
-**How to enable radiologists to focus on more value-added core responsibilities, while leveraging a smart connected hospital ?**
 
 ## Summary
 
