@@ -1,4 +1,4 @@
-# Smart lung disease diagnosis and personalized follow-up 
+# Smart Lung Disease Detector leveraging connected hospital power
 
 ## Tagline
 
@@ -7,11 +7,9 @@
 
 ## Summary
 
-Our innovative solution aims to leverage AI (machine learning) on two streams (AIxAI=AI²), 
-   - lung patient diagnostic,
-   - hospital administrative workflow
+**How to enable radiologists to focus on more value-added core responsibilities, while leveraging a smart connected hospital ?**
 
-=> to streamline both physician workload and patient experience.
+Our innovative solution aims to leverage AI (machine learning) on two streams (AIxAI=AI²), lung patient diagnostic, and hospital administrative workflow, to both streamline specialist workload and patient experience.
 
 We are tackling these concepts using a prediction model based on lung X-rays, to determine a lung patient pathology, and automating the booking system (CRM), to propose a relevant personalized follow-up appointment with a lung specialist. 
 
@@ -25,9 +23,19 @@ Here is the more detailed approach:
 
 ![text](assets/lung_disease_detector_coogle.png)
 
+### How our AI solution positively impacts the patient journey
+
+#### `Current situation`
+![alt text](assets/journey_slide_1.png "Title")
+
+#### `With our solution: patient C gets an earlier appointment`
+![alt text](assets/journey_slide_2.png "Title")
+
+## Technical Specifications
+
+[link](technical_specifications.md)
 
 ## Installations & Reproduction Detailed Instructions
-
 
 ## Team Members
 

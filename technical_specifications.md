@@ -12,6 +12,11 @@ After receiving his or her score, the result is sent to the Customer Relationshi
 
 The advantage of this approach is that it prioritizes the most urgent cases and helps doctors manage their schedule efficiently.
 
-## 1.2 SCHEDULING MODULE 
+
+## 1.2 SCHEDULING MODULE
 
 ![schedule_module](assets/schedule_module.png)
+
+The scheduling module acts as an interface between the hospital **CRM** and various instances (an instance per doctor) of the **AI** detections systems
+
+The AI instances send their detection results to the scheduler in JSON format. Each JSON contains the following fields:
