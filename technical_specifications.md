@@ -79,19 +79,19 @@ Given how these rates are influenced by the detection threshold of the classific
 
 # 3. PRIORITIZATION AND DATE RANGE
 
-In the beginning, the priority and date are assigned by a human, because the criteria that doctors use to determine severity of a case are not well defined and agreed upon rules. Since they depend on on many other medical parameters of the patient not captured by the x-ray as well as the physician’s experience and subjective evaluation, we cannot use an expert system or a rule engine.
+In the beginning, the priority and date are assigned by a human. Because the criteria that doctors use to determine severity of a case are not well defined and agreed upon rules. Instead,, they depend on on many other medical parameters of the patient not captured by the x-ray as well as the physician’s experience and subjective evaluation. Thus, we cannot use an expert system or a rule engine.
 
-However, in the second step, we can use an algorithm that predicts how a doctor is going to score a patient’s priority by looking at scores for “similar” cases. This is how most recommender engines work. The algorithm is trained on the treatment decisions of the most experienced stuff. This has the benefit of preserving the valuable experiences of doctors even after their retirement and to help less experienced doctors in their decision making process.
+However, in the second step, we can use an algorithm that predicts how a doctor is going to score a patient’s priority by looking at scores for “similar” cases. This is how most recommender engines work. The algorithm is trained on the treatment decisions of the most experienced staff. This has the benefit of preserving the valuable experiences of doctors even after their retirement and to help less experienced doctors in their decision making process.
 
 Given many patient characteristics (age, gender, smoking habits, etc.) one can build a similarity function between patients using dimensionality reduction techniques.
 
-Tuning the similarity function is easier in this case then cases like Netflix or Amazon, because in the latter cases a user has the freedom not to rate a movie or a product. In our case, a patient needs a date range and a priority to get a schedule. Thus, our training dataset will have less sparsity.
+Tuning the similarity function is easier in this case then cases like Netflix or Amazon, because in the latter cases, a user has the freedom not to rate a movie or a product. In our case, a patient needs a date range and a priority to get an appointment. Thus, our training dataset will have less sparsity.
 
 # 4. SCHEDULING PHASE
 
 ## 4.1 PREPROCESSING RULES
 
-Before entering the scheduling algorithm, the data must undergo some preprocessing in order to remove entries that contain missing or nonsensical values. In case of missing or nonsensical values, the model requests a resend. After that we introduce some rules and transformations.
+Before entering the scheduling algorithm, the data must undergo some preprocessing in order to remove entries that contain missing or nonsensical values. In this case, the model requests a resend from the AI module. After that we introduce some rules and transformations.
 
 First, a patient cannot cancel an appointment more than two times. At the third request, he/she is dropped from the system and sent a notification that his/her appointment cannot be cancelled.
 
