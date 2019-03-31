@@ -37,14 +37,14 @@ The advantage of this approach is that it prioritizes the most urgent cases and 
 
 ## Annexes
 
-(1)	Goddard P, Leslie A, Jones A, Wakeley C, Kabala J. Error in radiology. Br J Radiol. 2001;74(886):949–51
+(1)	Goddard, P., A. Leslie, A. Jones, C. Wakeley, und J. Kabala. „Error in radiology“. The British journal of radiology 74, Nr. 886 (2001): 949–951.
 
-(2) https://arxiv.org/pdf/1901.07031.pdf
+(2) Irvin, Jeremy, Pranav Rajpurkar, Michael Ko, Yifan Yu, Silviana Ciurea-Ilcus, Chris Chute, Henrik Marklund, Behzad Haghgoo, Robyn Ball, und Katie Shpanskaya. „CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison“. arXiv preprint arXiv:1901.07031, 2019.
 
-(3)	https://www.ncbi.nlm.nih.gov/pubmed/25626223 
+(3)	Woolhandler, Steffie, und David U. Himmelstein. „Administrative work consumes one-sixth of US physicians’ working hours and lowers their career satisfaction“. International Journal of Health Services 44, Nr. 4 (2014): 635–642.
 
-(4)	Pesapane F, Codari M, Sardanelli F. Artificial intelligence in medical imaging: threat or opportunity? Radiologists again at the forefront of innovation in medicine. Eur Radiol Exp. 2018;2(1):35. Published 2018 Oct 24. doi:10.1186/s41747-018-0061-6
+(4)	Pesapane, Filippo, Marina Codari, und Francesco Sardanelli. „Artificial intelligence in medical imaging: threat or opportunity? Radiologists again at the forefront of innovation in medicine“. European radiology experimental 2, Nr. 1 (2018): 35.
 
-(5)	https://medium.com/@Unfoldlabs/the-impact-of-artificial-intelligence-in-healthcare-4bc657f129f5 
+(5) UnfoldLabs. „The Impact of Artificial Intelligence in Healthcare“. Medium (blog), 24. August 2017. https://medium.com/@Unfoldlabs/the-impact-of-artificial-intelligence-in-healthcare-4bc657f129f5.
 
-(6)	https://www.forbes.com/sites/blakemorgan/2018/01/09/the-top-5-trends-in-customer-experience-for-healthcare/#19398d5923e6
+(6)	Morgan, Blake. „The Top 5 Trends In Customer Experience For Healthcare“. Forbes. Zugegriffen 31. März 2019. https://www.forbes.com/sites/blakemorgan/2018/01/09/the-top-5-trends-in-customer-experience-for-healthcare/.
