@@ -1,6 +1,7 @@
 import os
 import keras
 import resnet
+import pandas as pd
 import tensorflow as tf
 from keras.models import Model
 from generator import Generator
@@ -50,7 +51,7 @@ def set_model(network, num_classes, include_top=False, weights='imagenet', input
 def training(network, num_classes, epochs, batch_size, part):
     """Function that trains selected network"""
 
-    train_data = pd.read_pickle('data/dataframe/{}_train_df.pkl'.format(part))
+    train_data = pd.read_pickle('../data/dataframe/{}_train_df.pkl'.format(part))
     nb_epoch_steps = train_data.shape[0]//batch_size
 
     model = set_model(network, num_classes, include_top=False, weights='imagenet')
@@ -64,16 +65,16 @@ def training(network, num_classes, epochs, batch_size, part):
 
 
     gen = Generator()
-    train_gen = gen.generator('data/dataframe/{}_train.csv'.format(part), num_classes=3, augmentation=True)
-    val_gen = gen.generator('data/dataframe/{}_val.csv'.format(part), num_classes=3, augmentation=False)
+    train_gen = gen.generator('../data/dataframe/{}_train.csv'.format(part), num_classes=3, augmentation=True)
+    val_gen = gen.generator('../data/dataframe/{}_val.csv'.format(part), num_classes=3, augmentation=False)
 
     opt = Adam(lr=0.0001, decay=1e-5)
     es = EarlyStopping(patience=5)
-    chkpt = ModelCheckpoint(filepath='data/snapshots/{}_{}_{{epoch:02d}}.h5'.format(model.name, part), save_best_only=True)
+    chkpt = ModelCheckpoint(filepath='../data/snapshots/{}_{}_{{epoch:02d}}.h5'.format(model.name, part), save_best_only=True)
     model.compile(loss='binary_crossentropy', metrics=['accuracy'],optimizer=opt)
 
     # Fit model
-    tensorboard = TensorBoard(log_dir='./logs', histogram_freq=0, write_graph=True, write_images=True)
+    tensorboard = TensorBoard(log_dir='./logs/{}'.format(part), histogram_freq=0, write_graph=True, write_images=True)
     history = model.fit_generator(train_gen, epochs=epochs, steps_per_epoch=nb_epoch_steps,
                                 validation_data=val_gen, validation_steps=8, callbacks=[es,chkpt, tensorboard])
 
