@@ -3,7 +3,7 @@
 ## Tagline
 
 ## Link to the one page article
-[link](one_page_article.md)
+[link](one_page_article.MD)
 
 ## Additional Resources
 
