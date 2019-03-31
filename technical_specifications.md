@@ -6,7 +6,7 @@
 
 This document presents the specification for the scheduling module that transforms prediction output from lung radio images, into an appointment with a lung specialist.
 
-After disease detection and validation by a radiologist, a patient is given a priority score depending on the severity of his disease, as well as a recommended date range for a follow-up appointment. Here, the date range and priority score are parameters provided by medical professionals and are not deduced from machine learning. The process of assigning priority and date can eventually be partially automated as we will see in section 3, but a human in the loop is still preferred for this step.
+After disease detection and validation by a radiologist, a patient is given a priority score depending on the severity of his disease, as well as a recommended date range for a follow-up appointment. Here, the date range and priority score are parameters provided by medical professionals and are not deduced from machine learning. The process of assigning priority and date can eventually be partially automated as we will see in section 2, but a human in the loop is still preferred for this step.
 
 After receiving his or her score, the result is sent to the Customer Relationship Management (**CRM**) of the patient’s hospital. Taking into account the necessary date range and priority of treatment he/she gets an appointment made with a doctor.
 
@@ -71,9 +71,31 @@ The cost-benefit equation can be written as:
 
 With:
 
-* FP: False positive rate
-* TN: True negative rate
-* FN: False negative rate
+* **FP**: False positive rate
+* **TN**: True negative rate
+* **FN**: False negative rate
 
 Given how these rates are influenced by the detection threshold of the classification model. One can use the ROC curve to determine what threshold to use to so that the cost does not go to high.
+
+# 3. PRIORITIZATION AND DATE RANGE
+
+In the beginning, the priority and date are assigned by a human, because the criteria that doctors use to determine severity of a case are not well defined and agreed upon rules. Since they depend on on many other medical parameters of the patient not captured by the x-ray as well as the physician’s experience and subjective evaluation, we cannot use an expert system or a rule engine.
+
+However, in the second step, we can use an algorithm that predicts how a doctor is going to score a patient’s priority by looking at scores for “similar” cases. This is how most recommender engines work. The algorithm is trained on the treatment decisions of the most experienced stuff. This has the benefit of preserving the valuable experiences of doctors even after their retirement and to help less experienced doctors in their decision making process.
+
+Given many patient characteristics (age, gender, smoking habits, etc.) one can build a similarity function between patients using dimensionality reduction techniques.
+
+Tuning the similarity function is easier in this case then cases like Netflix or Amazon, because in the latter cases a user has the freedom not to rate a movie or a product. In our case, a patient needs a date range and a priority to get a schedule. Thus, our training dataset will have less sparsity.
+
+# 4. SCHEDULING PHASE
+
+## 4.1 PREPROCESSING RULES
+
+Before entering the scheduling algorithm, the data must undergo some preprocessing in order to remove entries that contain missing or nonsensical values. In case of missing or nonsensical values, the model requests a resend. After that we introduce some rules and transformations.
+
+First, a patient cannot cancel an appointment more than two times. At the third request, he/she is dropped from the system and sent a notification that his/her appointment cannot be cancelled.
+
+Second, a patient gets a warning message if his new appointment date far exceeds the recommended treatment date and his case is forwarded to a secretary in order to solve the problem.
+
+Third a patient that wishes to cancel and is eligible to do so is treated as a new patient. His/her appointment slot is freed, and he/she re-enters the scheduling algorithm.
 
