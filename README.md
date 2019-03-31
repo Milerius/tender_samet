@@ -2,6 +2,11 @@
 
 ## Tagline
 
+AI – Faster lung diagnosis and personalized follow-up
+
+**How to enable radiologists to focus on more value-added core responsibilities, while leveraging a smart connected hospital ?**
+
+
 ## Link to the one page article
 [link](one_page_article.md)
 
