@@ -99,6 +99,11 @@ Second, a patient gets a warning message if his new appointment date far exceeds
 
 Third a patient that wishes to cancel and is eligible to do so is treated as a new patient. His/her appointment slot is freed, and he/she re-enters the scheduling algorithm.
 
+
+## 4.2 SCHEDULING ALGORITHM
+
+![algorithm](assets/Tech_Match.png)
+
 ## 5. INTEGRATION WITH MOBILE
 
 In order to allow for better follow up. Its is always recommended to set up reminders and help patients eliminated as many friction points between them and their appointment.
