@@ -13,7 +13,7 @@ The beneficial impacts of AI solutions in the field of automated image diagnosis
 
 Our AI solution leverage two AI technology streams to enables a faster lung diagnosis and personalized follow-up, enabling radiologists to focus on more value-added core responsibilities, while leveraging a smart connected hospital.
 
-![image](assets/Tagline and logo.png)
+![image](assets/Tagline_and_logo.png)
 
 ## Our approach
 
