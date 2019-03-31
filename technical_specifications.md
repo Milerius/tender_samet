@@ -26,3 +26,14 @@ The **AI** instances send their detection results to the scheduler in **JSON** f
 | **PATIENT_ID**             	| Number       	| Unique ID of patient                                                         	|
 | **PRIORITY_SCORE**         	| Number       	| How urgent it is to prioritize the patient in the queue                      	|
 | **RECOMMENDED_DATE_RANGE** 	| [DATE, DATE] 	| The date range when it is recommended for the patient to get next,treatment. 	|
+
+The **CRM** also sends information to the module with patients who want to cancel their appointments because the date and time are not convenient for them. It is also in **JSON** format:
+
+| **FIELD**                  	| **TYPE**        	| **DESCRIPTION**                                                                      	|
+|------------------------	|-------------	|----------------------------------------------------------------------------------	|
+| **NAME**                   	| String      	| Name of the patient                                                              	|
+| **PATIENT_ID**             	| Number      	| Unique ID of patient                                                             	|
+| **CURRENT_DATE**           	| DATE        	| The date of the appointment that the patient wants to cancel                     	|
+| **NUMBER_CANCELLATIONS**   	| Number      	| The number of times the patient has already cancelled his/her,appointment before 	|
+| **RECOMMENDED_DATE_RANGE** 	| [Date,Date] 	| The date range when it is recommended for the patient to get treatment.          	|
+| **PRIORITY_SCORE**         	| Number      	| How urgent it is to prioritize the patient in the queue                          	|
