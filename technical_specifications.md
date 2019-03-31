@@ -37,3 +37,19 @@ The **CRM** also sends information to the module with patients who want to cance
 | **NUMBER_CANCELLATIONS**   	| Number      	| The number of times the patient has already cancelled his/her,appointment before 	|
 | **RECOMMENDED_DATE_RANGE** 	| [Date,Date] 	| The date range when it is recommended for the patient to get treatment.          	|
 | **PRIORITY_SCORE**         	| Number      	| How urgent it is to prioritize the patient in the queue                          	|
+
+The scheduler creates a **JSON** file where it stores all the `JSON objects` that receives. The format is the same as the one immediately above.
+
+The scheduling systems works in daily batch mode. After 9pm the current json file archive is disconnected from the data flux and replaced with another one. The scheduler then enters scheduling mode, where it receives the list of doctor schedules from the **CRM**, runs a prioritization algorithm and returns a new set of schedules to the **CRM**.
+
+## 1.3 THE CRM
+
+For the system to work. The **CRM** must provide an external API that enables the module to get object-relational mapping (ORM) representations of the data model used by the **CRM**. It should be able to provide features like get and post in a commonly used programming language like python or Java. This would allow for encapsulation and makes sure that the scheduling module remains independent of the **CRM** implementation details.
+
+One CRM that we found that provided such a capability was the **Odoo CRM**: https://www.odoo.com
+
+It is not only open source and extendable, but it also provides an API on both Python and Java: https://www.odoo.com/documentation/12.0/webservices/odoo.html
+
+The **CRM** must also be able to be extendable by modules that allow it to send special purpose files containing information about patients who wish to cancel their appointments.
+
+Finally, it must send a notification to the patients via their email and/or phone number and allow for a smooth user experience from the patient side in terms of appointment cancellation requests. 
