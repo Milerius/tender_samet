@@ -21,4 +21,7 @@ python3 train.py --classes 4 --part pleural --network resent101
 
 ## Result
 python3 inference.py
+
+## If you want to see the loss curves
+tensorboard --logdir=../logs
 ```
