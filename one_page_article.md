@@ -27,7 +27,7 @@ The advantage of this approach is that it prioritizes the most urgent cases and 
 
 ![image](assets/our_approach.png)
 
-### How our AI solution positively impacts the patient journey
+## How our AI solution positively impacts the patient journey
 
 #### `Current situation`
 ![alt text](assets/journey_slide_1.png "Title")
