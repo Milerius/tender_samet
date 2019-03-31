@@ -53,3 +53,18 @@ It is not only open source and extendable, but it also provides an API on both P
 The **CRM** must also be able to be extendable by modules that allow it to send special purpose files containing information about patients who wish to cancel their appointments.
 
 Finally, it must send a notification to the patients via their email and/or phone number and allow for a smooth user experience from the patient side in terms of appointment cancellation requests. 
+
+## 1.4 THE AI MODULE
+
+The AI module is composed of both the ML prediction engine and, in the first version, a human in the loop who assigns to each diagnostic a priority score and a recommended date range for treatment.
+
+In order to mitigate the possibility of false positives, a radiologist is asked to validate the model prediction at the end. 
+
+In order to mitigate the risk of false negatives (patients with an illness flagged as healthy) we still apply a follow-up strategy to reduce the risk of untreated diseases becoming a severe health issue. 
+
+These mitigation strategies incur a cost in terms of appointment scheduling. A true negative means that a follow up interview is useless, same thing for a false positive.
+
+A False negative however if not detected and given a follow up appointment might cost many sessions in case of complications, and if urgent hospitalization is needed, then cost can be high.
+The cost-benefit equation can be written as:
+
+`Cost = (FP + TN) * cost_of_mitigation – FN * cost_of_untreated_illness`
