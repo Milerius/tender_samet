@@ -25,13 +25,6 @@ Here is the more detailed approach:
 
 ![text](assets/lung_disease_detector_coogle.png)
 
-### How our AI solution positively impacts the patient journey
-
-#### `Current situation`
-![alt text](assets/journey_slide_1.png "Title")
-
-#### `With our solution: patient C gets an earlier appointment`
-![alt text](assets/journey_slide_2.png "Title")
 
 ## Installations & Reproduction Detailed Instructions
 
