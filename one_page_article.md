@@ -19,9 +19,9 @@ Our AI solution leverage two AI technology streams to enables a faster lung diag
 
 Our approach is to transform  prediction output from lung radio images, into an appointment with a lung specialist.
 
-After disease detection and validation by a radiologist, a patient is given a priority score depending on the severity of his disease, as well as a recommended deadline to seek treatment (here, the deadline and severity score are parameters provided by medical professionals and are not deduced from machine learning).
+After disease detection and validation by a radiologist, a patient is given a priority score depending on the severity of his disease, as well as a recommended date range for a follow-up appointment. Here, the date range and priority score are parameters provided by medical professionals and are not deduced from machine learning. The process of assigning priority and date can eventually be partially automated as we will see in section 3, but a human in the loop is still preferred for this step.
 
-After receiving his or her score, the result is sent to the content management system of the nearest hospital of the patient. And according to the priority assigned to his/her case, he/she gets an appointment made with a doctor.
+AAfter receiving his or her score, the result is sent to the Customer Relationship Management (CRM) of the patient’s hospital. Considering the necessary date range and priority of treatment he/she gets an appointment made with a doctor.
 
 The advantage of this approach is that it prioritizes the most urgent cases and helps doctors manage their schedule efficiently.
 
