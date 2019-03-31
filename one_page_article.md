@@ -32,7 +32,7 @@ The advantage of this approach is that it prioritizes the most urgent cases and 
 #### `Typical situation`
 ![alt text](assets/journey_slide_1.png "Title")
 
-#### `With our solution: patient C gets an earlier appointment`
+#### `With our solution: physican gets diagnosis support and patient C gets an earlier appointment`
 ![alt text](assets/journey_slide_2.png "Title")
 
 ## Annexes
