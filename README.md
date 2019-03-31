@@ -11,6 +11,8 @@ We are improving these processes by:
 - using a prediction model based on lung X-rays, to determine a lung patient pathology
 - automating coordination between diagnosis and booking assistant tools (CRM), to propose a relevant personalized follow-up appointment with a lung specialist
 
+We remove friction points in the process by using user-friendly app for the patient (e.g. to set reminders, localization of appointment, etc.)
+
 ## Link to the one page article
 
 [Click here](one_page_article.md) for the more detailed approach
