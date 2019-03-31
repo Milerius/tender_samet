@@ -68,3 +68,12 @@ A False negative however if not detected and given a follow up appointment might
 The cost-benefit equation can be written as:
 
 `Cost = (FP + TN) * cost_of_mitigation – FN * cost_of_untreated_illness`
+
+With:
+
+* FP: False positive rate
+* TN: True negative rate
+* FN: False negative rate
+
+Given how these rates are influenced by the detection threshold of the classification model. One can use the ROC curve to determine what threshold to use to so that the cost does not go to high.
+
