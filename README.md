@@ -19,7 +19,7 @@ We are improving these processes by:
 
 ![text](assets/Smart_lung_disease_diagnosis_and_personalized_follow-up.png)
 
-### Algorithm in details
+### XRay Analysis algorithm details
 
 ![algorithm](assets/algorithm_diagram.png)
 

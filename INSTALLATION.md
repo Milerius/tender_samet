@@ -1,7 +1,7 @@
 ## Instructions
 
-### Training
+### Install dependancies
 
 ```bash
-python 
+pip install -r requirements.txt
 ```
