@@ -3,7 +3,7 @@
 ## Tagline
 
 ## Link to the one page article
-[link](one_page_article.MD)
+[link](one_page_article.md)
 
 ## Additional Resources
 
@@ -26,6 +26,6 @@ Bellachehab Anass ans.bellache@gmail.com
 
 Allwyn Joseph allwyn@azmed.com
 
-Roman Sztergbaum rmscastle@gmail.com
+Roman Sztergbaum [Linkedin](https://www.linkedin.com/in/roman-sztergbaum), [Github](https://github.com/Milerius) rmscastle@gmail.com
 
 Noémie Héroin  noemie.heroin@gmail.com
