@@ -40,7 +40,7 @@ The **CRM** also sends information to the module with patients who want to cance
 
 The scheduler creates a **JSON** file where it stores all the `JSON objects` that receives. The format is the same as the one immediately above.
 
-The scheduling systems works in daily batch mode. After 9pm the current json file archive is disconnected from the data flux and replaced with another one. The scheduler then enters scheduling mode, where it receives the list of doctor schedules from the **CRM**, runs a prioritization algorithm and returns a new set of schedules to the **CRM**.
+The scheduling systems works in daily batch mode. At 1am the current json file archive is disconnected from the data flux and replaced with another one. The scheduler then enters scheduling mode, where it receives the list of doctor schedules from the **CRM**, runs a prioritization algorithm and returns a new set of schedules to the **CRM**.
 
 ## 1.3 THE CRM
 
