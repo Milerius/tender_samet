@@ -1,4 +1,4 @@
-# Smart Lung Disease Diagnosis and personnalized follow-up 
+# Smart lung disease diagnosis and personalized follow-up 
 
 ## Tagline
 
@@ -7,9 +7,11 @@
 
 ## Summary
 
-**How to enable radiologists to focus on more value-added core responsibilities, while leveraging a smart connected hospital ?**
+Our innovative solution aims to leverage AI (machine learning) on two streams (AIxAI=AI²), 
+   - lung patient diagnostic,
+   - hospital administrative workflow
 
-Our innovative solution aims to leverage AI (machine learning) on two streams (AIxAI=AI²), lung patient diagnostic, and hospital administrative workflow, to both streamline specialist workload and patient experience.
+=> to streamline both physician workload and patient experience.
 
 We are tackling these concepts using a prediction model based on lung X-rays, to determine a lung patient pathology, and automating the booking system (CRM), to propose a relevant personalized follow-up appointment with a lung specialist. 
 
