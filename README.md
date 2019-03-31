@@ -31,6 +31,8 @@ Here is the more detailed approach:
 #### `With our solution: patient C gets an earlier appointment`
 ![alt text](assets/journey_slide_2.png "Title")
 
+## Installations & Reproduction Detailed Instructions
+
 
 ## Team Members
 
