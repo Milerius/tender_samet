@@ -25,9 +25,9 @@ AI – Faster lung diagnosis and personalized follow-up
 
 ## Team Members
 
-Benedikt Jordan [Linkedin] (https://www.linkedin.com/in/benedikt-jordan-9b068b9a/) Benedikt.jordan@posteo.de
+Benedikt Jordan [Linkedin](https://www.linkedin.com/in/benedikt-jordan-9b068b9a/) Benedikt.jordan@posteo.de
 
-Anass Bellachehab [Linkedin] (https://www.linkedin.com/in/anass-bellachehab-a89baa8a/) ans.bellache@gmail.com
+Anass Bellachehab [Linkedin](https://www.linkedin.com/in/anass-bellachehab-a89baa8a/) ans.bellache@gmail.com
 
 Allwyn Joseph [Linkedin](https://www.linkedin.com/in/allwyn-joseph/), allwyn@azmed.com
 
