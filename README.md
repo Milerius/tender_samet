@@ -19,7 +19,6 @@ We are improving these processes by:
 ## Additional Resources
 
 ![text](assets/Smart_lung_disease_diagnosis_and_personalized_follow-up.png)
-[Click here](AI2_Smart_lung_diagnosis_and_personalized_follow-up.pptx) for the pitch
 
 ## Technical Specifications
 
