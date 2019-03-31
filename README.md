@@ -14,8 +14,7 @@ We are improving these processes by:
 
 ## Link to the one page article
 
-Here is the more detailed approach:
-[link](one_page_article.md)
+[Click here](one_page_article.md) is the more detailed approach:
 
 ## Additional Resources
 
