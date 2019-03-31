@@ -28,6 +28,13 @@ We also remove friction points in the process by using user-friendly app for the
 
 ![algorithm](assets/algorithm_diagram.png)
 
+Ressources:
+CheXpert: Irvin, Jeremy, Pranav Rajpurkar, Michael Ko, Yifan Yu, Silviana Ciurea-Ilcus, Chris Chute, Henrik Marklund, Behzad Haghgoo, Robyn Ball, und Katie Shpanskaya. „CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison“. arXiv preprint arXiv:1901.07031, 2019.
+
+ResNet: He, Kaiming, Xiangyu Zhang, Shaoqing Ren, und Jian Sun. „Deep residual learning for image recognition“. In Proceedings of the IEEE   conference on computer vision and pattern recognition, 770–778, 2016.
+
+We tried also the VGG network, but it didn´t perform as well: Simonyan, Karen, und Andrew Zisserman. „Very deep convolutional networks for large-scale image recognition“. arXiv preprint arXiv:1409.1556, 2014.
+
 ## Technical Specifications
 
 [Click here](technical_specifications.md) for the technical specifications
