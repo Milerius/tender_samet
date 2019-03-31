@@ -1,4 +1,4 @@
-# Laung Disease Detector
+# Lung Disease Detector
 
 ## Tagline
 
