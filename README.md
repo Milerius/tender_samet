@@ -29,6 +29,8 @@ We are improving these processes by:
 
 ## Installations & Reproduction Detailed Instructions
 
+[Click here](INSTALLATION.md) to access installation instructions
+
 ## Team Members
 
 Benedikt Jordan [Linkedin](https://www.linkedin.com/in/benedikt-jordan-9b068b9a/), Benedikt.jordan@posteo.de
