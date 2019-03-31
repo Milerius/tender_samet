@@ -1,7 +1,7 @@
 
 
 import pandas as pd
-
+import numpy as np
 
 def extract(interest, df, subdata=False):
     
@@ -26,11 +26,11 @@ def tain_val_csv(df, name):
     
     val_idx = random_idx[:int(df.shape[0]*0.15)]
     val_df = df.iloc[val_idx]
-    df.to_csv(('data/dataframe/' + name + '_val.csv'))
+    df.to_csv(('../data/dataframe/' + name + '_val.csv'))
     
     train_idx = random_idx[int(df.shape[0]*0.15):]
     train_df = df.iloc[train_idx]
-    df.to_csv(('data/dataframe/' + name + '_train.csv'))
+    df.to_csv(('../data/dataframe/' + name + '_train.csv'))
 
 
 def main():
@@ -78,7 +78,7 @@ def main():
 
 if __name__ =='__main__':
 
-    train_df = pd.read_csv('data/CheXpert-v1.0-small/train.csv')
+    train_df = pd.read_csv('../data/CheXpert-v1.0-small/train.csv')
     train_df = train_df.fillna(0)
     train_df = train_df.replace(-1, 1)
 

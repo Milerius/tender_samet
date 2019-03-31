@@ -78,7 +78,7 @@ def training(network, num_classes, epochs, batch_size, part):
                                 validation_data=val_gen, validation_steps=8, callbacks=[es,chkpt, tensorboard])
 
 
-ef parse_command_line():
+def parse_command_line():
     version = "%prog 1.0"
     usage = "usage %prog [options]"
     parser = OptionParser(usage=usage, version=version)
@@ -101,13 +101,10 @@ ef parse_command_line():
 if __name__ == '__main__':
 
     (options, args) = parse_command_line()
-    training(options.dataset,
-             options.filepath,
-             options.size,
+    training(options.classes,
+             options.epochs,
              options.batch_size,
-             options.norm,
-             options.manip,
-             options.one_channel,
-             options.img16)
+             options.part,
+             options.network)
 
 
