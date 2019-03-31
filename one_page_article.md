@@ -27,6 +27,14 @@ The advantage of this approach is that it prioritizes the most urgent cases and 
 
 ![image](assets/our_approach.png)
 
+### How our AI solution positively impacts the patient journey
+
+#### `Current situation`
+![alt text](assets/journey_slide_1.png "Title")
+
+#### `With our solution: patient C gets an earlier appointment`
+![alt text](assets/journey_slide_2.png "Title")
+
 ## Annexes
 
 (1)	Goddard P, Leslie A, Jones A, Wakeley C, Kabala J. Error in radiology. Br J Radiol. 2001;74(886):949–51
