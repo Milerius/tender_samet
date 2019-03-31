@@ -18,7 +18,7 @@ We are improving these processes by:
 
 ## Additional Resources
 
-![text](assets/lung_disease_detector_coogle.png)
+![text](assets/Smart_lung_disease_diagnosis_and_personalized_follow-up.png)
 
 ## Technical Specifications
 
