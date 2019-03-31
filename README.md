@@ -10,7 +10,7 @@ Our innovative solution aims to leverage AI (machine learning) on two streams (A
 
 We are improving these processes by:
 - using a prediction model based on lung X-rays, to determine a lung patient pathology
-- automating coordination between diagnosis and booking assistant tools, to propose a relevant personalized follow-up appointment with a lung specialist
+- automating coordination between diagnosis and booking assistant tools (CRM), to propose a relevant personalized follow-up appointment with a lung specialist
 
 ## Link to the one page article
 
