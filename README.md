@@ -14,7 +14,7 @@ We are improving these processes by:
 
 ## Link to the one page article
 
-[Click here](one_page_article.md) is the more detailed approach:
+[Click here](one_page_article.md) the more detailed approach
 
 ## Additional Resources
 
@@ -22,7 +22,7 @@ We are improving these processes by:
 
 ## Technical Specifications
 
-[link](technical_specifications.md)
+[Click here](technical_specifications.md) for the technical specifications
 
 ## Installations & Reproduction Detailed Instructions
 
