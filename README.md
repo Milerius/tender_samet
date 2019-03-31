@@ -2,10 +2,12 @@
 
 ## Tagline
 
-AI² – Faster lung diagnosis and personalized follow-up
+**AI² – Faster lung diagnosis and personalized follow-up
 
 
 ## Summary
+
+**How to enable radiologists to focus on more value-added core responsibilities, while leveraging a smart connected hospital ?**
 
 Our innovative solution aims to leverage AI (machine learning) on two streams (AIxAI=AI²), lung patient diagnostic, and hospital administrative workflow, to both streamline specialist workload and patient experience.
 
