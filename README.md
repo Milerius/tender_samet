@@ -58,4 +58,4 @@ Allwyn Joseph [Linkedin](https://www.linkedin.com/in/allwyn-joseph/), allwyn@azm
 
 Roman Sztergbaum [Linkedin](https://www.linkedin.com/in/roman-sztergbaum), [Github](https://github.com/Milerius), rmscastle@gmail.com
 
-Noémie Héroin [Linkedin](www.linkedin.com/in/noemie-heroin), noemie.heroin@gmail.com
+Noémie Héroin [Linkedin](https://www.linkedin.com/in/noemie-heroin), noemie.heroin@gmail.com
