@@ -54,7 +54,7 @@ Benedikt Jordan [Linkedin](https://www.linkedin.com/in/benedikt-jordan-9b068b9a/
 
 Anass Bellachehab [Linkedin](https://www.linkedin.com/in/anass-bellachehab-a89baa8a/), ans.bellache@gmail.com
 
-Allwyn Joseph [Linkedin](https://www.linkedin.com/in/allwyn-joseph/), allwyn@azmed.com
+Allwyn Joseph [Linkedin](https://www.linkedin.com/in/allwyn-joseph/), allwyn@azmed.co
 
 Roman Sztergbaum [Linkedin](https://www.linkedin.com/in/roman-sztergbaum), [Github](https://github.com/Milerius), rmscastle@gmail.com
 
